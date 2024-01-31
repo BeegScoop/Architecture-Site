@@ -14,6 +14,11 @@ app.get("/",(req,res) =>{
     
 });
 
+app.get("/about",(req,res) =>{
+    res.render("about.ejs");
+    
+});
+
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
   });
