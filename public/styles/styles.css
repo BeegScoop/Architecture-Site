@@ -33,6 +33,7 @@ h4{
 }
 p{
     color:#ffffff;
+    margin:0%;
 }
 
 .header{
@@ -88,7 +89,7 @@ p{
     display:grid;
     grid-template-columns: 0.5fr 1fr;
     grid-template-rows: repeat(1, 1fr);
-    width: 90%;
+    width: 80%;
     margin: 0 auto 0 auto;
     text-align: center;
     row-gap: 2rem;
@@ -97,7 +98,7 @@ p{
     display:grid;
     grid-template-columns: 0.5fr 1fr;
     grid-template-rows: repeat(1, 1fr);
-    width: 90%;
+    width: 100%;
     margin: 10px auto 0 auto;
     text-align: center;
     row-gap: 2rem;
@@ -108,6 +109,22 @@ p{
     flex-direction: column;
 }
 .profile-pic{
-    height:10rem;
-    object-fit: scale-down;
+    height:6rem;
+    
+}
+.description-box{
+    text-align: left;
+    margin-left: 5%;
+}
+.description-title{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.linked-text:hover{
+    text-decoration: underline;
+}
+.left-section{
+    display:flexbox;
+    flex-direction: column;
+    
 }
