@@ -19,6 +19,15 @@ app.get("/about",(req,res) =>{
     
 });
 
+app.get("/churchHouses",(req,res) =>{
+    res.render("churchHouses.ejs");
+    
+});
+app.get("/NotreDameCathedral",(req,res) =>{
+    res.render("NotreDameCathedral.ejs");
+    
+});
+
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
   });
