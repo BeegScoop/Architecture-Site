@@ -3,12 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Church Houses</title>
+    <title>House Churches</title>
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
-<div class = "container">
-    <%- include("partials/header.ejs") %>
-</div>
+<body>
+    <div class = "container">
+        <%- include("partials/header.ejs") %>
+        <div class = "subpage">
+            <div>
+                <h1 class ="padding verticalLine">
+                    House Churches
+                </h1>
+            </div>
+            <div class = "table">
+                <div>
+                    <h2 class ="padding verticalLine">
+                        House churches were used in Rome as a safe haven for early Christians away from persecution.
+                    </h2>
+                </div>
+                <div class = "subpage-image-container">
+                    <img src = "/images/house-wealthy.jpg"/>
+                </div>
+                
+            </div>
+            <h3>
+                The Context
+            </h3>
+            <div>
+                <p class="subpage-text-box">
+                    In the early days of Christianity, followers of Christ met wherever 
+                    spaces were available to them. Oftentimes these 
+                    gatherings were held in wealthy people’s spacious living facilities. 
+                    These places that early Christians met came to be known as House Churches. 
+                    In Rome, these places served not only as a place to have Mass, but also as a haven 
+                    from the Roman persecution of Christians.
+                </p>
+            </div>
+            
+            <div class = "table">
+                <div>
+                    <h2 class ="padding verticalLine">
+                        This is a typical layout of a Domus style house in Rome that could be used as a House Church.
+                    </h2>
+                </div>
+                <div class = "subpage-image-container">
+                    <img src = "/images/Dom.png"/>
+                </div>
+                
+            </div>
+            <h3>
+                The Structure
+            </h3> 
+            <div>
+                <p class="subpage-text-box">
+
+                </p>
+            </div>
+            <div class = "table">
+                <div>
+                    <h2 class ="padding verticalLine">
+                        This is one layout of a House Church based on an excavated house in Dura-Europos in what is present day Syria.
+                    </h2>
+                </div>
+                <div class = "subpage-image-container">
+                    <img src = "/images/HouseChurch.jpg"/>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+</body>
+<footer>
+    <%- include("partials/footer.ejs") %>
+</footer>
+</html>

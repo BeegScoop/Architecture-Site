@@ -54,7 +54,7 @@ p{
     color: #ffffff; 
     font-weight: bold;
     text-decoration: none;
-    font-size: 15px;
+    
     display: block;
     padding: 20px 20px;
     position: relative;
@@ -193,6 +193,7 @@ a>p:hover{
     background-size: 100%;
     background-image: url("/images/NotreDameCathedral.jpg");
     background-position: center;
+    margin-top:10px;
   }
   
 .bigImg:hover {
@@ -204,7 +205,26 @@ a>p:hover{
     flex-direction: column;
     justify-content: end;
     text-align: left;
-    max-width: 100vw;
-    max-height: 100vh;
     
+    
+}
+.subpage{
+    margin-left: 15%;
+    margin-right: 15%;
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+.padding{
+    padding-left: 20px;
+}
+.subpage-image-container{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+}
+.subpage-text-box{
+    width: 60%;
+    font-size: 1.5rem;
 }
